@@ -1,0 +1,69 @@
+#curve{
+    fill: transparent;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+ body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: vh;
+
+ }
+
+.text{
+    font-size: 4rem;
+    fill: white;
+}
+
+.gorden{
+    font-size: 5rem;
+    color: white;
+}
+
+.pill {
+    font-size: 20px;
+    font-family: 'raedex Pro', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    cursor: pointer; 
+}
+
+.pill:not(.pill--selected)hover {
+     background: #898989;
+}
+
+.pill--selected{
+    background: #ffffff;
+    color: black;
+}
+
+.button {
+    width: 200px;
+}
+
+.love {
+    
+    font-size: 5rem;
+    color: white;
+}
+
+.semoga{
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+.diterima {
+    font-size: 1rem;
+    color: white;
+}
